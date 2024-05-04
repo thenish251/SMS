@@ -1,0 +1,23 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "School Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "lms"
+  ],
+  "author": "thenish",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
