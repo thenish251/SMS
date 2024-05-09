@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const AcademicYear = require('./AcademicYear');
 
-const yearGroupSchema = new Schema({
+const yearGroupSchema = new mongoose.Schema({
     name:{
         type:String,
         required:true,
@@ -17,7 +17,7 @@ const yearGroupSchema = new Schema({
         ref:'AcademicYear',
         required:true
     }
-},
+}, 
 {
     timestamps:true
 })
